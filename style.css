@@ -1,0 +1,91 @@
+body {
+    background-image: linear-gradient(to right bottom, darkred, red, darkorange, orange, yellow, green, darkgreen, darkblue, blue, purple, darkviolet, violet, pink, black, brown);
+}
+
+#score {
+    font-size: 29px;
+    font-style: italic;
+    margin-left: 27px;
+    background-color: darkviolet;
+    color: violet;
+}
+
+#timer {
+    font-size: 29px;
+    font-style: italic;
+    float: right;
+    margin-right: 85px;
+    background-color: brown;
+    color: pink;
+}
+
+#sketch_to_be_drawn {
+    background-color: rgb(1, 1, 110);
+    color: rgb(15, 15, 255);
+    font-size: 32px;
+    font-style: italic;
+}
+
+#show_sketch {
+    float: right;
+}
+
+#quick_draw, #text {
+    background-color: darkred;
+    color: red;
+    font-size: 29px;
+    font-style: italic;
+}
+
+#your_sketch {
+    background-color: orange;
+    color: yellow;
+    font-size: 28px;
+    font-style: italic;
+}
+
+#confidence {
+    background-color: rgb(1, 71, 1);
+    color: rgb(2, 156, 2);
+    font-size: 29px;
+    font-style: italic;
+}
+
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
